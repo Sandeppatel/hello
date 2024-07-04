@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div class="page h-screen w-full bg-[#11111C]" id="page1">
+        <div class="nav fixed h-[100px] w-full bg-zinc-500" id="navbar">
+          <div class="nav flex items-center">
+            <img src="future.png" alt="" />
+          </div>
+          <div class="lefts" id="lefted">
+            <h1 id="texth1" class="text-[#FCA12E]">home</h1>
+            <h1>
+              <select class="bg-zinc-500 uppercase" id="mySelect1">
+                <option value="about us">about us</option>
+                <option value="introdus">introdus</option>
+                <option value="school">school</option>
+                <option value="leadership">leadership</option>
+                <option value="feculty">feculty</option>
+                <option value="acadmics">acadmics</option>
+              </select>
+            </h1>
+            <h1>
+              <select class="bg-zinc-500 uppercase" id="mySelect2">
+                <option value="campus life">campus life</option>
+                <option value="introdus">introdus</option>
+                <option value="school">school</option>
+                <option value="feculty">feculty</option>
+                <option value="acadmics">acadmics</option>
+              </select>
+            </h1>
+            <h1>alumni</h1>
+            <h1>special initiatives</h1>
+            <h1>
+              <select class="bg-zinc-500 uppercase" id="mySelect3">
+                <option value="awords">awords</option>
+                <option value="introdus">introdus</option>
+                <option value="school">school</option>
+                <option value="feculty">feculty</option>
+                <option value="acadmics">acadmics</option>
+              </select>
+            </h1>
+          </div>
+        </div>
+        <div class="bottom h-[100%] w-full flex">
+          <div
+            data-scroll
+            data-scroll-speed="2"
+            class="left h-full w-1/2 pt-2"
+            id="leftone"
+          >
+            <h1 class="text-5xl font-semibold text-white pt-1">
+              hii.! i'm sandeep
+            </h1>
+            <h1 class="text-5xl font-semibold text-white pt-1">patel and,</h1>
+            <h1 class="text-5xl font-semibold text-white pt-2" id="paragraph1">
+              i'm <span class="text-[#FCA12E]">Bright Future Awards</span>
+            </h1>
+            <p
+              data-scroll
+              data-scroll-speed="1"
+              class="text-xl text-white w-[70%] pt-6"
+            >
+              Bright Future Awards celebrates exceptional talent, innovation,
+              and dedication, recognizing individuals and teams who inspire
+              progress and make a significant impact in their fields
+            </p>
+            <button
+              data-scroll
+              data-scroll-speed="1"
+              class="py-3 px-4 border-2 rounded-full mt-12 text-2xl font-semibold text-[#FCA12E]"
+            >
+              enroll now <i class="ri-arrow-right-line text-2xl"></i>
+            </button>
+            <div class="icon text-white flex items-center px-10 gap-10 mt-16">
+              <h1
+                class="text-4xl h-[70px] w-[70px] py-2 px-2.5 text-[] rounded-full"
+              >
+                <img src="my insta.png" alt="" />
+              </h1>
+              <h1 class="h-[70px] w-[70px] text-4xl py-2 px-2.5 rounded-full">
+                <img
+                  src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png"
+                  alt=""
+                />
+              </h1>
+              <h1
+                class="text-4xl h-[80px] w-[80px] py-2 px-2.5 text-[] rounded-full"
+              >
+                <img src="whatssap.png" alt="" />
+              </h1>
+              <h1
+                class="text-4xl h-[65px] w-[65px] py-2 px-2.5 text-[] rounded-full"
+              >
+                <img src="photo one.png" alt="" />
+              </h1>
+            </div>
+          </div>
+          <div class="right h-full w-1/2 flex items-center justify-center">
+            <div
+              id="circle"
+              class="gola h-[60vh] w-[60vh] rounded-full overflow-hidden absolute"
+            >
+              <img id="images" class="ml-16" src="my photo.png" alt="" />
+            </div>
+            <div class="img h-[70%] rounded-full overflow-hidden w-[70%]">
+              <img class="h-full w-full" src="best logo.png" alt="" />
+              <h1 class="mt-[40%]">snadeep patel</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page h-screen w-full bg-[#11111C] text-white" id="page2one">
+        <h1 class="text-4xl font-semibold p-4 text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </h1>
+      </div>
+      <div class="page h-screen w-full bg-[#11111C]" id="page3"></div>
+      <div class="page h-screen w-full bg-[#11111C]" id="page4"></div>
+      <div class="page h-screen w-full bg-[#11111C]" id="page5"></div>
+      <div class="page hidden h-screen w-full bg-[#11111C]" id="page6"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

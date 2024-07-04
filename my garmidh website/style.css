@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+    padding: 0 50px;
+}
+#lefted{
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#leftone{
+       padding-left: 50px;
+       padding-top: 200px;
+}
+
+button{
+    /* position: absolute; */
+    position: relative;
+    width: 30%;
+    overflow: hidden;
+    
+}
+button:hover{
+    z-index: 99999;
+    color: white;
+}
+button::after{
+    content: "";
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+button:hover::after{
+    color: #11111C;
+    background-color: #FCA12E;
+    width: 100%;
+    transition: all ease 1s;
+    color: white;
+    z-index: -1;
+}
+
+#images {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center; /* This centers the image horizontally */
+    object-fit: cover;
+    object-position: center 15%; /* This moves the image 60% down from the top */
+}
